@@ -1,0 +1,184 @@
+﻿<app>
+	<!--Saffron PageData format
+	
+		page.@id: page unique id to call with this.dispatch(new AppEventContent())
+		type: Page class name on PageContainer
+		menutype: Menu class name on MenuContainer
+		content: String content for the page
+		music: Music url on Data folder. the Saffrom engine will load it automaticly for each page
+		image: The page single Image url
+		images: List of images for gallery contains <img text="" targ="null" w="NaN" h="NaN" x="NaN" y="NaN"/> list
+		first links tag: list of Link items to creats lists
+		second links tag just same as first one but the order of them is important
+	-->
+	
+	<!--debug/-->
+	
+	<page id="home">
+	  <type>home</type>
+	  <menutype/>
+	  <title/>
+	  <content w="768" h="793"> </content>
+	  <music/>
+	  <image/>
+	  <images>
+	  </images>
+	  <links>
+		<link level="1" name="صفحه نخست" id="home" icon="Data/images/menu/web-page-home.png"/>
+		<link level="1" name="شبکه اطلاع رسانی ملی سلامت" id="Porofile" icon="Data/images/menu/user.png"/>
+		<link level="1" name="آیا شما یک سفیر سلامتی هستید؟" id="Survey" icon="Data/images/menu/list.png"/>
+		<link level="1" name="میز کار من" id="DeskMe" icon="Data/images/menu/team.png"/>
+		<link level="1" name="نرم افزارهای سلامت" id="SoftwereMe" icon="Data/images/menu/magnifying-glass.png"/>
+		<link level="1" name="Health Media" id="Account" icon="Data/images/menu/buying-on-smartphone.png"/>
+		<link level="1" name="دیجی سلام" id="DijiSalam" icon="Data/images/menu/warning.png"/>
+		<link level="1" name="ایران کارت سلامت" id="IranKartSalamat" icon="Data/images/menu/telephone.png"/>
+		<link level="1" name="باشگاه تخفیفان سلامت" id="TakhfifanBAshgah" icon="Data/images/menu/150.png"/>
+		<link level="1" name="درباره ما" id="darbarema" icon="Data/images/menu/warning.png"/>
+		<link level="1" name="تماس با ما" id="Tamas" icon="Data/images/menu/telephone.png"/>
+		<link level="1" name="درباره توسعه دهنده" id="developer_static_page" icon="Data/images/menu/150.png"/>
+	  </links>
+	  <links/>
+	</page>
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+		<page id="OneClick">
+			<type>Tiqq.Ui.OneClick</type>
+			<title>یک کلیک</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+	<page id="Ezterary">
+			<type>Tiqq.Ui.Ezterary</type>
+			<title>اضطراری</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<page id="Profile">
+			<type>Tiqq.Ui.Profile</type>
+			<title>پروفایل</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+	
+	
+	
+		<page id="Help">
+			<type>Tiqq.Ui.Help</type>
+			<title>راهنمای نرم افزار</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+	
+	
+		<page id="TakhfifanBAshgah">
+			<type>VitrinPages.TakhfifanBAshgah</type>
+			<title>باشگاه تخفیفان سلامت</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<page id="search">
+			<type>VitrinPages.Search</type>
+			<title>جستجو</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+	
+
+	
+	
+			<page id="darbarema">
+			<type>VitrinPages.Aboutus</type>
+			<title>درباره ما</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+	
+	<page id="Tamas">
+			<type>VitrinPages.Content</type>
+			<title>تماس با ما</title>
+			<content align="1" x='' y='' w='750'>0</content>
+			<images>
+			</images>
+			<links>
+			</links>
+	</page>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+</app>
